@@ -12,16 +12,21 @@
   --small-text-font-size: 0.75rem;
   --tag-text-font-size: 0.625rem;
   --button-text-color: #883ae1;
+  --button-background-color: #E6D6FC;
   --tittle-text-color: #20293a;
   --small-text-color: #6c727f;
 
   /* Other root Settings */
   --card-background-color: #FFF;
-  --body-background-color: #e5eaf0;
+  --main-background-color: #FAFAF9;
+  --background-color: #e5eaf0;
 }
 
 main{
-  background-color: var(--body-background-color);
+  font-family: 'Sora', sans-serif;
+  background-color: var(--main-background-color);
+  display: flex;
+  align-items: center;
 }
 
 .card-body {
@@ -35,10 +40,35 @@ main{
 .cactus{
   border-radius: 15px;
   width: 336px;
+  height: 152px;
+  margin-bottom: 16px;
+}
+
+.small__button{
+  font-size: var(--body-text-font-size);
+  color: var(--button-text-color);
+  background-color: var(--button-background-color);
+  text-align: center;
+  width:15%;
+  border-radius: 15px;
+  font-weight: 500;
+  padding: 6px 16px;
+  margin-bottom: 16px;
 }
 
 .tittle{
   font-size: var(--tittle-font-size);
   color: var(--tittle-text-color);
+  margin-bottom: 6px;
 }
 
+.small__text{
+  font-size: var(--small-text-font-size);
+  color: var(--small-text-color);
+  margin-bottom: 20px;
+}
+
+.tag{
+  border-top: 1px solid hsl(221, 8%, 40%);
+  margin-bottom: 20px;
+}
