@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@200;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+:root{
+  /* Text root settings */
+  --tittle-font-size: 1.125rem;
+  --body-font-size: 0.875rem;
+  --small-text-font-size: 0.75rem;
+  --tag-text-font-size: 0.625rem;
+  --button-text-color: #883ae1;
+  --tittle-text-color: #20293a;
+  --small-text-color: #6c727f;
+
+  /* Other root Settings */
+  --card-background-color: #FFF;
+  --body-background-color: #e5eaf0;
+}
