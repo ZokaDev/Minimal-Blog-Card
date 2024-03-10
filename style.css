@@ -22,17 +22,19 @@
   --background-color: #e5eaf0;
 }
 
-main{
+body {
   font-family: 'Sora', sans-serif;
   background-color: var(--main-background-color);
+}
+main{
   display: flex;
+  justify-content: center;
   align-items: center;
 }
-
 .card-body {
+  margin-top: 164px;
   width: 336px;
   border-radius: 30px;
-  font-size: var(--body-font-size);
   background-color: var(--card-background-color);
   padding:16px 16px 20px;
 }
@@ -45,7 +47,7 @@ main{
 }
 
 .small__button{
-  font-size: var(--body-text-font-size);
+  font-size: var(--small-text-font-size);
   color: var(--button-text-color);
   background-color: var(--button-background-color);
   text-align: center;
@@ -63,12 +65,12 @@ main{
 }
 
 .small__text{
-  font-size: var(--small-text-font-size);
+  font-size: var(--body-text-font-size);
   color: var(--small-text-color);
   margin-bottom: 20px;
 }
 
 .tag{
-  border-top: 1px solid hsl(221, 8%, 40%);
-  margin-bottom: 20px;
+  font-size: var(--tag-text-font-size);
+  color: var(--small-text-color);
 }
