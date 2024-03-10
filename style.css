@@ -19,3 +19,26 @@
   --card-background-color: #FFF;
   --body-background-color: #e5eaf0;
 }
+
+main{
+  background-color: var(--body-background-color);
+}
+
+.card-body {
+  width: 336px;
+  border-radius: 30px;
+  font-size: var(--body-font-size);
+  background-color: var(--card-background-color);
+  padding:16px 16px 20px;
+}
+
+.cactus{
+  border-radius: 15px;
+  width: 336px;
+}
+
+.tittle{
+  font-size: var(--tittle-font-size);
+  color: var(--tittle-text-color);
+}
+
